@@ -1,2 +1,3 @@
 # stats-preview-card
-Design1
+
+https://blancc-page.github.io/stats-preview-card/
