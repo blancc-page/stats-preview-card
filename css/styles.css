@@ -1,0 +1,158 @@
+html,
+body {
+  background-color: hsl(233, 47%, 7%);
+}
+body {
+  padding: 7% 0 7% 0;
+}
+span {
+  color: hsl(277, 64%, 61%);
+}
+
+.main-card {
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(244, 38%, 16%);
+  border-radius: 1%;
+  width: 80%;
+  margin: auto;
+}
+.tablet {
+  display: none;
+}
+.mobile{
+    display: none;
+}
+.card-title {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  margin: 1.5rem 0 1rem 1.5rem;
+  width: 80%;
+}
+
+.card-text {
+  font-family: "Inter", sans-serif;
+  color: hsla(0, 0%, 100%, 0.75);
+  margin: 1.5rem 0 1rem 1.5rem;
+  width: 75%;
+}
+
+.desk-image {
+  border-radius: 0 1% 1% 0;
+  width: 100%;
+  height: 100%;
+}
+
+.stat-num-container {
+  color: hsl(0, 0%, 100%);
+  display: flex;
+  font-size: 2rem;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  margin-left: 1.5rem;
+}
+.stat-num1 {
+  margin-top: 1rem;
+  margin-bottom: 0;
+  margin-right: 19%;
+}
+.stat-num {
+  margin-right: 23%;
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+.stat-text-container {
+  display: flex;
+  letter-spacing: 1.5px;
+  margin-left: 1.5rem;
+}
+.stat-text1 {
+  display: inherit;
+  color: hsla(0, 0%, 100%, 0.6);
+  font-size: 1rem;
+  font-family: "Lexend Deca", sans-serif;
+  margin-top: 0.5rem;
+  margin-right: 19%;
+  width: 4.8418125rem;
+}
+.stat-text {
+  color: hsla(0, 0%, 100%, 0.6);
+  display: inherit;
+  font-size: 1rem;
+  font-family: "Lexend Deca", sans-serif;
+  margin-top: 0.5rem;
+  margin-right: 23.2%;
+  width: 3.6543125rem;
+}
+
+@media screen and (max-width: 991px) {
+html{
+    text-align: center;
+}
+.desktop{
+    display: none;
+}
+.tablet{
+    display: inline;
+}
+.mobile{
+    display: none;
+}
+.card-title{
+    margin-left: auto;
+    margin-right: auto
+}
+.card-text{
+    margin-left: auto;
+    margin-right: auto
+}
+.desk-image{
+    border-radius: 1% 1% 0 0;
+}
+.stat-num-container {
+    margin-left: 1%;
+  }
+  .stat-num1 {
+    margin: 1rem 19% 0 10%;
+  }
+
+  .stat-text-container {
+    letter-spacing: 1.5px;
+    margin-left: 1%;
+  }
+  .stat-text1 {
+    margin: 0 10% 0 7%;
+
+  }
+  .stat-text {
+    margin: 0 17% 0 9%;
+
+  }
+}
+@media screen and (max-width: 700px) {
+    html{
+        text-align: center;
+    }
+    .desktop{
+        display: none;
+    }
+    .tablet{
+        display: none;
+    }
+    .mobile{
+        display:inline;
+    }
+    .stat-num{
+        color: hsl(0, 0%, 100%);
+        font-family: "Inter", sans-serif;
+        font-size: 2rem;
+        font-weight: 700;
+        margin: 1rem auto;
+        padding: 0;
+        width: auto;
+    }
+    .stat-text{
+        display: inline-flex;
+        margin: auto;
+        width: auto;
+    }
+    }
